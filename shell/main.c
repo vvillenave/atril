@@ -285,7 +285,6 @@ main (int argc, char *argv[])
 
     done:
 	ev_shutdown ();
-	ev_stock_icons_shutdown ();
 
 	g_object_unref (application);
 	return status;
